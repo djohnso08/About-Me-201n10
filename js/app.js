@@ -74,10 +74,10 @@ else {
     //if it's not correct, tell them to try again
     alert('I have not, but I wish I could!!!');
 }
-alert('You got ' + correct + ' correct');
+alert('You got ' + correct + ' out of 4 correct.');
 console.log('Can you name the two days starting with T besides Tuesday and Thursday?');
 
-alert('Did you notice the software developer in question two question 2?');
+alert('Thank you for playing my guessing game?');
 
 console.log('');
 console.log('Here are your answers');
