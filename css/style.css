@@ -1,0 +1,15 @@
+h2 {
+font-style: italic;
+font-family: Courier New, Courier, monospace;
+font-size: 10%;
+}
+
+#hire {
+    max-width: 100%;
+    height: auto;
+    float: right;
+}
+
+p {
+    font-family: Courier New, Courier, monospace;
+}
