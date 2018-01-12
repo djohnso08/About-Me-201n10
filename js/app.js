@@ -23,5 +23,14 @@ else {
     alert('Incorrect. All the things of Humphrey Bogart!!!');
 }
 
-alert('you have ' + correct + ' points');
+alert('You got ' + correct + ' correct');
 console.log('Can you name the two days starting with T besides Tuesday and Thursday?');
+
+alert('Did you notice the software developer in question two question 2?');
+
+console.log('');
+console.log('Here are your answers');
+console.log('You would be in 2nd place. You passed the person in 2nd place, not 1st');
+console.log('There weren\'t any stairs. It was a bungalow!');
+console.log('Today and tomorrow.');
+console.log('Bread. Most people will answer "Toast".');
