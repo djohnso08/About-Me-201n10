@@ -65,7 +65,7 @@ else {
 var france = prompt('Have I lived in France?' , 'Type yes or no').toLowerCase();
 console.log('There was a red bungalow. Everything in it was red - the walls, the carpets, the furniture. What color were the stairs?');
 
-if (france) === 'no' || france === 'n') {
+if (france === 'no' || france === 'n') {
     //if it's correct give them a point
     alert('You are correct!');
     correct++;
