@@ -2,13 +2,13 @@
 A guessing game about me that involves five yes/no questions that accept and accommodate user input. 
 
 ## Motivation
-Creating a page that demonstrates my skills with HTML/CSS and JavaScript. Also, allows users and potential employers to quickly learn a few things about me, such as a short bio, my education, an overview of my job experience, and my goals.
+Creating a page that demonstrates my skills with HTML/CSS and JavaScript. Also, allows users and potential employers to quickly learn a few things about me, such as a bio, my education, an overview of my job/military experience, and my goals.
 
 ## Built With
 HTML/CSS, JavaScript
 
 ## Contributing
-Please read [Creating a Pull Request](https://help.github.com/articles/creating-a-pull-request/) for details on the process for submitting pull requests to us.
+Please read [Creating a Pull Request](https://help.github.com/articles/creating-a-pull-request/) for details on the process for submitting pull requests.
 
 ## Author
 David Johnson 
