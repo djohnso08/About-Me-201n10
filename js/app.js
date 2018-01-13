@@ -29,7 +29,7 @@ if (dance === 'yes' || dance === 'y') {
   correct++;
 }
 else {
-  alert('Incorrect. The judges on Dancing with the stars would no appreciate your answer!!!');
+  alert('Incorrect. The judges on Dancing with the stars would not appreciate your answer!!!');
 }
 
 var diver = prompt('Have I dove deeper than 100ft?' , 'Type yes or no').toLowerCase();
