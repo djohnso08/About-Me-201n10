@@ -8,10 +8,10 @@ alert('Welcome to my guessing game!');
 var userName = prompt('What is your name?');
 alert('Welcome ' + userName + '! Hope you enjoy my guessing game.');
 
-console.log('If you were running a race and you passed the person in 2nd place, what place would you be in now?');
+console.log('Imagine you are in a sinking rowboat surrounded by sharks. How would you survive?');
 
 var movie = prompt('Is David\'s favorite movie Casablanca?' , 'Type yes or no').toLowerCase();
-console.log('There was a red bungalow. Everything in it was red - the walls, the carpets, the furniture. What color were the stairs?');
+console.log('How can you lift an elephant with one hand?');
 
 if (movie === 'yes' || movie === 'y') {
   alert('You are correct!');
@@ -71,6 +71,8 @@ alert('Thank you for playing my guessing game!');
 
 console.log('');
 console.log('Here are your answers');
+console.log('Stop imagining');
+console.log('It is not a problem, since you will never find an elephant with one hand.');
 console.log('You would be in 2nd place. You passed the person in 2nd place, not 1st');
 console.log('There weren\'t any stairs. It was a bungalow!');
 console.log('Today and tomorrow.');
