@@ -14,70 +14,60 @@ var movie = prompt('Is David\'s favorite movie Casablanca?' , 'Type yes or no').
 console.log('There was a red bungalow. Everything in it was red - the walls, the carpets, the furniture. What color were the stairs?');
 
 if (movie === 'yes' || movie === 'y') {
-    //if it's correct give them a point
-    alert('You are correct!');
-    correct++;
+  alert('You are correct!');
+  correct++;
 }
 else {
-    //if it's not correct, tell them to try again
-    alert('Incorrect. All the things of Humphrey Bogart!!!');
+  alert('Incorrect. All the things of Humphrey Bogart!!!');
 }
 
 var dance = prompt('Have I ever won a dance contest?' , 'Type yes or no').toLowerCase();
 console.log('There was a red bungalow. Everything in it was red - the walls, the carpets, the furniture. What color were the stairs?');
 
 if (dance === 'yes' || dance === 'y') {
-    //if it's correct give them a point
-    alert('You are correct! ');
-    correct++;
+  alert('You are correct! ');
+  correct++;
 }
 else {
-    //if it's not correct, tell them to try again
-    alert('Incorrect. The judges on Dancing with the stars would no appreciate your answer!!!');
+  alert('Incorrect. The judges on Dancing with the stars would no appreciate your answer!!!');
 }
 
 var diver = prompt('Have I dove deeper than 100ft?' , 'Type yes or no').toLowerCase();
-console.log('There was a red bungalow. Everything in it was red - the walls, the carpets, the furniture. What color were the stairs?');
+console.log('If you were running a race and you passed the person in 2nd place, what place would you be in now?');
 
 if (diver === 'yes' || diver === 'y') {
-    //if it's correct give them a point
-    alert('You are correct! It get\'s cold down there');
-    correct++;
+  alert('You are correct! It get\'s cold down there');
+  correct++;
 }
 else {
-    //if it's not correct, tell them to try again
-    alert('Nice try, but you are incorrect!!!');
+  alert('Nice try, but you are incorrect!!!');
 }
 
 var military = prompt('Was I in the military?' , 'Type yes or no').toLowerCase();
 console.log('There was a red bungalow. Everything in it was red - the walls, the carpets, the furniture. What color were the stairs?');
 
 if (military === 'yes' || military === 'y') {
-    //if it's correct give them a point
-    alert('You are correct!');
-    correct++;
+  alert('You are correct!');
+  correct++;
 }
 else {
-    //if it's not correct, tell them to try again
-    alert('Not even close!!!');
+  alert('Not even close!!!');
 }
 
 var france = prompt('Have I lived in France?' , 'Type yes or no').toLowerCase();
-console.log('There was a red bungalow. Everything in it was red - the walls, the carpets, the furniture. What color were the stairs?');
-
-if (france === 'no' || france === 'n') {
-    //if it's correct give them a point
-    alert('You are correct!');
-    correct++;
-}
-else {
-    //if it's not correct, tell them to try again
-    alert('I have not, but I wish I could!!!');
-}
-alert('You got ' + correct + ' out of 4 correct.');
 console.log('Can you name the two days starting with T besides Tuesday and Thursday?');
 
-alert('Thank you for playing my guessing game?');
+if (france === 'no' || france === 'n') {
+  alert('You are correct!');
+  correct++;
+}
+else {
+  alert('I have not, but I wish I could!!!');
+}
+alert('You got ' + correct + ' out of 5 correct.');
+console.log('Spell "Ghost" out loud. Then spell "Most" out loud. Then spell "Roast" out loud. What do you put in a toaster?');
+
+alert('Thank you for playing my guessing game!');
 
 console.log('');
 console.log('Here are your answers');
