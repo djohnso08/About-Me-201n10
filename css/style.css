@@ -1,3 +1,29 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color:black;
+    display: inline-block;
+    font-family: Courier New, Courier, monospace;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 10px 10px;
+}
+
+a:visited {
+    color: white;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-top: 50px;
+    
+}
+
 h2 {
 font-style: italic;
 font-family: Courier New, Courier, monospace;
@@ -5,11 +31,21 @@ font-size: 10%;
 }
 
 #hire {
-    max-width: 100%;
+   ]
     height: auto;
     float: right;
+    margin-right: 100px;
 }
 
 p {
     font-family: Courier New, Courier, monospace;
+    font-weight: bolder;
+    font-style: italic;
+    width: 500px;
+
+}
+
+#space-needle {
+    padding-top: 50px;
+    width: 100%
 }
