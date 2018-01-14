@@ -14,7 +14,7 @@ console.log('Question 1: Is David\'s favorite movie Casablanca?');
 if (movie === 'yes' || movie === 'y') {
   alert('You are correct!');
   correct++;
-  console.log('Answer ' + movie + ' Casablanca is my favorite movie');
+  console.log('Answer: ' + movie + ' Casablanca is my favorite movie');
 }
 else {
   alert('Incorrect. All the things of Humphrey Bogart!!!');
@@ -34,12 +34,12 @@ else {
 }
 
 var diver = prompt('Have I dove deeper than 100ft?' , 'Type yes or no').toLowerCase();
-console.log('Question: 3 Have I dove deeper than 100ft?');
+console.log('Question 3: Have I dove deeper than 100ft?');
 
 if (diver === 'yes' || diver === 'y') {
   alert('You are correct! It get\'s cold down there');
   correct++;
-  console.log(diver + ' I have dove deeper than 100ft');
+  console.log('Answer: ' + diver + ' I have dove deeper than 100ft');
 }
 else {
   alert('Nice try, but you are incorrect!!!');
@@ -51,7 +51,7 @@ console.log('Question 4: Was I in the military?');
 if (military === 'yes' || military === 'y') {
   alert('You are correct!');
   correct++;
-  console.log(military + ' I was in the military.');
+  console.log('Answer: ' + military + ' I was in the military.');
 }
 else {
   alert('Not even close!!!');
@@ -71,10 +71,8 @@ else {
 
 for (var i = 0; i < 4; i++) {
   var number = prompt('What is my favorite number?');
-  console.log('My favorite number is ' + number + '.');
   if(parseInt(number) === 8){
     correct++;
-    console.log('Answer: My favorite number was ' + number + '.');
     i = 5;
     alert('Correct');
   }else if (parseInt(number) < 8){
@@ -85,6 +83,7 @@ for (var i = 0; i < 4; i++) {
     alert('You are going to need a number if you want to finish this quiz.');
   }
 }
+console.log('Answer: My favorite number was ' + number + '.');
 
 var statesLivedIn = ['washington','oklahoma','tennessee','virginia','kansas','arizona'];
 
