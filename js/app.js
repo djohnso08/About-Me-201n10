@@ -27,7 +27,7 @@ console.log('Question 2: Have I ever won a dance contest?');
 if (dance === 'yes' || dance === 'y') {
   alert('You are correct! ');
   correct++;
-  console.log('Answer: ' + dance + 'I have won a dance contest');
+  console.log('Answer: ' + dance + ' I have won a dance contest');
 }
 else {
   alert('Incorrect. The judges on Dancing with the stars would not appreciate your answer!!!');
@@ -39,7 +39,7 @@ console.log('Question: 3 Have I dove deeper than 100ft?');
 if (diver === 'yes' || diver === 'y') {
   alert('You are correct! It get\'s cold down there');
   correct++;
-  console.log(diver + 'I have dove deeper than 100ft')
+  console.log(diver + ' I have dove deeper than 100ft');
 }
 else {
   alert('Nice try, but you are incorrect!!!');
@@ -51,7 +51,7 @@ console.log('Question 4: Was I in the military?');
 if (military === 'yes' || military === 'y') {
   alert('You are correct!');
   correct++;
-  console.log(military + 'I was in the military.');
+  console.log(military + ' I was in the military.');
 }
 else {
   alert('Not even close!!!');
@@ -62,7 +62,7 @@ console.log('Question 5: Have I lived in France?');
 
 if (france === 'no' || france === 'n') {
   alert('You are correct!');
-  console.log('Answer:' + france + 'I have not lived in France.');
+  console.log('Answer: ' + france + ' I have not lived in France.');
   correct++;
 }
 else {
@@ -71,10 +71,10 @@ else {
 
 for (var i = 0; i < 4; i++) {
   var number = prompt('What is my favorite number?');
-  console.log('My favorite number is' + number);
+  console.log('My favorite number is ' + number + '.');
   if(parseInt(number) === 8){
     correct++;
-    console.log('Answer: My favorite number was' + number + '.');
+    console.log('Answer: My favorite number was ' + number + '.');
     i = 5;
     alert('Correct');
   }else if (parseInt(number) < 8){
@@ -92,16 +92,16 @@ for (var j = 0;j < 6;j++) {
   var statesQuestion = prompt('Can you guess a state that I have lived in besides Washington?');
   console.log('Question 7: Can you guess a state that I have lived in besides Washington?');
   if (statesLivedIn.includes(statesQuestion.toLowerCase())) {
-    alert('Great job I have lived in' + statesQuestion);
+    alert('Great job I have lived in ' + statesQuestion);
     correct++;
-    console.log('Answer: I have lived in' + statesQuestion);
+    console.log('Answer: I have lived in ' + statesQuestion);
     j = 7;
   } else if (!statesLivedIn.includes(statesQuestion.toLowerCase())) {
     alert('Try Again!');
-  } else {
-    alert('I have lived in' + statesLivedIn + ' .');
   }
 }
+
+alert('I have lived in ' + statesLivedIn + ' .');
 
 alert('You got ' + correct + ' out of 7 correct.');
 
