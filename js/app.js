@@ -64,7 +64,42 @@ if (france === 'no' || france === 'n') {
 else {
   alert('I have not, but I wish I could!!!');
 }
-alert('You got ' + correct + ' out of 5 correct.');
+
+for (var i = 0; i < 4; i++) {
+  var number = prompt('What is my favorite number?');
+  console.log('My favorite number is' + number);
+  if(parseInt(number) === 8){
+    correct++;
+    i = 5;
+    alert('Correct');
+  }else if (parseInt(number) < 8){
+    alert('Too Low');
+  }else if (parseInt(number) > 8){
+    alert('Too High');
+  }else{
+    alert('You are going to need a number if you want to finish this quiz.');
+  }
+}
+
+var statesLivedIn = ['washington','oklahoma','tennessee','virginia','kansas','arizona'];
+
+for (var j = 0;j < 6;j++) {
+  var statesQuestion = prompt('Can you guess a state that I have lived in besides Washington?');
+  console.log(statesQuestion);
+  if (statesLivedIn.includes(statesQuestion.toLowerCase())) {
+    alert('Great job I have lived in' + statesQuestion);
+    correct++;
+    j = 7;
+  } else if (!statesLivedIn.includes(statesQuestion.toLowerCase())) {
+    alert('Try Again!');
+  } else {
+    alert('I have lived in' + statesLivedIn + ' .');
+  }
+
+}
+
+alert('You got ' + correct + ' out of 7 correct.');
+
 console.log('Spell "Ghost" out loud. Then spell "Most" out loud. Then spell "Roast" out loud. What do you put in a toaster?');
 
 alert('Thank you for playing my guessing game!');
