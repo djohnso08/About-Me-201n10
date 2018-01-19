@@ -21,6 +21,9 @@ GitHub user PurpleBooth for providing README Template 
 
 ## Version History:
 2018-01-18: Pair Programming Exercise
+
 Driver: Christopher Chew
+
 Navigator:  David Johnson
+
 Wrapped question code into functions
