@@ -18,3 +18,9 @@ This project is licensed under the MIT License
 
 ## Acknowledgments
 GitHub user PurpleBooth for providing README Template 
+
+<h2>Version History:</h2>
+2018-01-18: Pair Programming Exercise
+Driver: Christopher Chew
+Navigator:  David Johnson
+Wrapped question code into functions
