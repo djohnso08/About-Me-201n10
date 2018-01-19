@@ -20,7 +20,8 @@ This project is licensed under the MIT License
 GitHub user PurpleBooth for providing README Template 
 
 ## Version History:
-2018-01-18: Pair Programming Exercise
-Driver: Christopher Chew
-Navigator:  David Johnson
-Wrapped question code into functions
+<p>2018-01-18: Pair Programming Exercise</p>
+<p>Driver: Christopher Chew</p>
+<p>Navigator:  David Johnson</p>
+<p>Code was worked together!</p>
+<p>Wrapped question code into functions</p>
