@@ -1,63 +1,93 @@
-ul {
-    list-style-type: none;
+* {
+    outline: none;
+}
+body {
+    font: 20px Montserrat, sans-serif;
+    border: 20px solid lightgray;
+    color: gray;
+    text-align: center;
     margin: 0;
-    padding: 0;
-    color: white;
-    background-color:black;
-    display: inline-block;
-    font-family: Courier New, Courier, monospace;
-    font-size: 20px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    padding: 10px 10px;
+    font-weight: lighter;
 }
 
-a:visited {
-    color: white;
+#navBar {
+    list-style-type: none;
+    overflow: hidden;
 }
 
-#container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin-top: 50px;
-    margin-left: 10px;
-    
+li {
+    display: inline;
 }
 
-#name {
-    font-style: italic;
-    font-family: Courier New, Courier, monospace;
-    font-size: 16px;
-    font-weight: bolder;
-    margin: 0px;
+li a {
+    text-decoration: none;
+    padding: 100px;
+        color: gray;
+}
+
+#whoAmI {
+    background-color: rgb(73,23,2);
+    color: #ffffff;
+}
+
+#info {
+    padding-top: 20px;
+}
+
+#whereAmI {
+    background-color: rgb(249,247,217);
+    color: gray;
+  }
+
+#whatAmI {
+    padding-bottom: 50px;
 }
 
 #hire-me {
-    height: auto;
-    float: right;
-    margin-right: 100px;
-    padding-left: 40px;
+    border-radius: 50%;
 }
 
-p {
-    font-family: Courier New, Courier, monospace;
-    font-weight: normal;
-    font-style: italic;
-    width: 500px;
-    margin-top: 6px;
-    line-height: 30px;
-
+div {
+    padding: 70px 70px;
 }
 
-#space-needle {
-    padding-top: 50px;
-    width: 100%
+.photos {
+    max-width: 80%;
+    height: 250px;
+    width:  100%;
+    opacity: 0.25; 
+}
+
+.photos:hover {
+    opacity: 1.0;
+}
+
+figure {
+    width: 18%;
+    display:inline-block;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+}
+
+#learnMore {
+    text-decoration: none;
+    color: gray;
+}
+
+button {
+background-color: gray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
 }
 
 footer {
     text-align: right;
-    font-size: 10;
-    font-family: Courier New, Courier, monospace;
 }

@@ -17,7 +17,9 @@ David Johnson 
 This project is licensed under the MIT License
 
 ## Acknowledgments
-GitHub user PurpleBooth for providing README Template 
+GitHub user PurpleBooth for providing README Template
+
+W3schools.com (https://www.w3schools.com/) for CSS concepts  
 
 ## Version History:
 2018-01-18: Pair Programming Exercise
