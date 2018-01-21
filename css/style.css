@@ -39,16 +39,17 @@ li a {
     color: gray;
   }
 
-#whatAmI {
-    margin-top: 20px;
-}
-
 #me {
     border-radius: 50%;
 }
 
 div {
     padding: 70px 70px;
+}
+
+#whatAmI {
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .photos {
@@ -73,12 +74,6 @@ figure {
 #learnMore {
     text-decoration: none;
     color: gray;
-}
-
-#imageGallery {
-    margin: 5px;
-    padding: 5px;
-   
 }
 
 button {

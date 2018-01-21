@@ -1,0 +1,22 @@
+body {
+    font: 20px Montserrat, sans-serif;
+    border: 20px solid lightgray;
+    color: gray;
+    text-align: center;
+    margin: 0;
+    font-weight: lighter;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+#list {
+    padding: 20px;
+}
+
+#visit {
+    padding: 20px;
+    background-color: rgb(73,23,2);
+    color: #ffffff;
+}
