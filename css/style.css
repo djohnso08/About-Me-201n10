@@ -55,7 +55,7 @@ div {
 .photos {
     max-width: 80%;
     height: 250px;
-    width:  100%;
+    width:  80%;
     opacity: 0.25; 
 }
 
@@ -64,7 +64,7 @@ div {
 }
 
 figure {
-    width: 18%;
+    width: 19%;
     display:inline-block;
     margin: 0;
     text-align: center;
