@@ -101,7 +101,7 @@ function askFavNum () {
 }
 
 function askStatesLived () {
-  var statesLivedIn = ['washington','oklahoma','tennessee','virginia','kansas','arizona'];
+  var statesLivedIn = ['oklahoma','tennessee','virginia','kansas','arizona'];
   var livedIn = statesLivedIn.join(', ');
   for (var j = 0;j < 6;j++) {
     var statesQuestion = prompt('Can you guess a state that I have lived in besides Washington?');
